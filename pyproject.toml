@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-hiforce-plugin"
+description = "Custom nodes pack provided by [a/HiFORCE](https://www.hiforce.net/) for ComfyUI. This custom node helps to conveniently enhance images through Sampler, Upscaler, Mask, and more.\nNOTE:You should install [a/ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack). Many optimizations are built upon the foundation of ComfyUI-Impact-Pack."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torch", "numpy", "Pillow", "requests"]
+
+[project.urls]
+Repository = "https://github.com/hiforce/comfyui-hiforce-plugin"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-hiforce-plugin"
+Icon = ""
